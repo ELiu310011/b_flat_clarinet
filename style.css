@@ -1,0 +1,40 @@
+h1 {
+	color : green;
+}
+p {
+	color : blue;
+}
+/* # lets you refer to an id */
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 200px;
+}
+/*  . lets you refer to a class */
+.navitem a {
+    display: block;
+    color: orange;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.navitem a.active {
+	background-color:lightgray;
+	color:black;
+}
+
+.navitem a:hover {
+	/* change background color 
+	     to something contrasting
+	   and the text color so it can
+	     be read on that contrasting color */
+	background-color:orange;
+	color:black;
+}
+
+
+
+
+
+
